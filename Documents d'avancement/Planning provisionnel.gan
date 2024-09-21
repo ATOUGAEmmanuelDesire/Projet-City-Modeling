@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2023-06-09" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.2.3200" locale="fr_FR">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="115" order="0"/>
+        <field id="tpd4" name="Date de début" width="97" order="1"/>
+        <field id="tpd5" name="Date de fin" width="138" order="2"/>
+        <option id="taskLabelUp" value="name"/>
+        <option id="taskLabelDown" value="coordinator"/>
+        <option id="filter.completedTasks" value="false"/>
+        <timeline>
+            <![CDATA[0,1]]>
+        </timeline>
+        <option id="color.recent">
+            <![CDATA[#ffff33 #000000 #ff3333 #3333ff #99ff00 #cccc00]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="85" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="prendre connaisance du projet" color="#9999ff" meeting="false" start="2023-06-19" duration="1" complete="0" thirdDate="2023-06-12" thirdDate-constraint="0" expand="true"/>
+        <task id="1" name="PHASE 1" color="#9999ff" meeting="false" start="2023-06-19" duration="10" complete="0" thirdDate="2023-06-12" thirdDate-constraint="0" expand="true">
+            <task id="2" name="Partie 1" color="#9999ff" meeting="false" start="2023-06-19" duration="10" complete="0" thirdDate="2023-06-12" thirdDate-constraint="0" expand="true">
+                <task id="3" name="Etude Preliminaire" color="#9999ff" meeting="false" start="2023-06-19" duration="1" complete="0" thirdDate="2023-06-12" thirdDate-constraint="0" expand="true"/>
+                <task id="4" name="calculs scientifiques" color="#9999ff" meeting="false" start="2023-06-19" duration="1" complete="0" thirdDate="2023-06-12" thirdDate-constraint="0" expand="true"/>
+                <task id="8" name="Partie 2" color="#9999ff" meeting="false" start="2023-06-20" duration="9" complete="0" thirdDate="2023-06-12" thirdDate-constraint="0" expand="true">
+                    <task id="5" name="montage du prototype" color="#9999ff" meeting="false" start="2023-06-20" duration="1" complete="0" thirdDate="2023-06-12" thirdDate-constraint="0" expand="true"/>
+                    <task id="6" name="suiveur de lignes" color="#9999ff" meeting="false" start="2023-06-20" duration="2" complete="0" thirdDate="2023-06-12" thirdDate-constraint="0" expand="true"/>
+                    <task id="7" name="Mesures physiques" color="#9999ff" meeting="false" start="2023-06-20" duration="1" complete="0" thirdDate="2023-06-12" thirdDate-constraint="0" expand="true"/>
+                    <task id="9" name="PHASE 2" color="#cccc00" meeting="false" start="2023-06-20" duration="9" complete="0" thirdDate="2023-06-12" thirdDate-constraint="0" expand="true">
+                        <task id="10" name="Decouverte de Chemin" color="#99ff00" meeting="false" start="2023-06-20" duration="3" complete="0" thirdDate="2023-06-12" thirdDate-constraint="0" expand="true"/>
+                        <task id="11" name="PHASE 3" color="#3333ff" meeting="false" start="2023-06-21" duration="8" complete="0" thirdDate="2023-06-20" thirdDate-constraint="1" expand="true">
+                            <task id="12" name="Distance et Vitesse" color="#3333ff" meeting="false" start="2023-06-21" duration="2" complete="0" thirdDate="2023-06-12" thirdDate-constraint="0" expand="true"/>
+                            <task id="13" name="Liason Radio" color="#3333ff" meeting="false" start="2023-06-21" duration="2" complete="0" thirdDate="2023-06-12" thirdDate-constraint="0" expand="true"/>
+                            <task id="14" name="Communication" color="#3333ff" meeting="false" start="2023-06-22" duration="2" complete="0" thirdDate="2023-06-12" thirdDate-constraint="0" expand="true"/>
+                            <task id="15" name="PHASE 4" color="#ff3333" meeting="false" start="2023-06-26" duration="5" complete="0" thirdDate="2023-06-12" thirdDate-constraint="0" expand="true">
+                                <task id="16" name="Interface 2D temps reel" color="#ff3333" meeting="false" start="2023-06-26" duration="2" complete="0" thirdDate="2023-06-12" thirdDate-constraint="0" expand="true"/>
+                                <task id="20" name="Application Principale" color="#ff3333" meeting="false" start="2023-06-26" duration="3" complete="0" thirdDate="2023-06-12" thirdDate-constraint="0" expand="true"/>
+                                <task id="17" name="Modelisation et Architecture" color="#ff3333" meeting="false" start="2023-06-26" duration="3" complete="0" thirdDate="2023-06-12" thirdDate-constraint="0" expand="true"/>
+                                <task id="18" name="Integration des Donnees" color="#ff3333" meeting="false" start="2023-06-26" duration="3" complete="0" thirdDate="2023-06-12" thirdDate-constraint="0" expand="true"/>
+                                <task id="19" name="Replication du modele et expansion" color="#ff3333" meeting="false" start="2023-06-27" duration="2" complete="0" thirdDate="2023-06-12" thirdDate-constraint="0" expand="true"/>
+                                <task id="21" name="Rapport" color="#ffff33" meeting="false" start="2023-06-30" duration="1" complete="0" thirdDate="2023-06-09" thirdDate-constraint="0" expand="true">
+                                    <task id="22" name="powerpoint" color="#ffff33" meeting="false" start="2023-06-30" duration="1" complete="0" thirdDate="2023-06-09" thirdDate-constraint="0" expand="true"/>
+                                </task>
+                            </task>
+                        </task>
+                    </task>
+                </task>
+            </task>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="MOGEUM Yvanna" function="Default:0" contacts="" phone=""/>
+        <resource id="1" name="FOTSO Jordan" function="Default:0" contacts="" phone=""/>
+        <resource id="2" name="FONGUE Jovani" function="Default:0" contacts="" phone=""/>
+        <resource id="3" name="ATOUGA Emmanuel" function="Default:0" contacts="" phone=""/>
+        <resource id="4" name="YOUASSA Lionel" function="Default:0" contacts="" phone=""/>
+        <resource id="5" name="ITOUA Rolf" function="Default:0" contacts="" phone=""/>
+        <resource id="6" name="JODOM Steve" function="Default:0" contacts="" phone=""/>
+        <resource id="7" name="IKANGA Gabriel" function="Default:0" contacts="" phone=""/>
+        <resource id="8" name="MOGUEM Yvanna" function="Default:0" contacts="" phone=""/>
+        <resource id="9" name="GROUPE" function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="7" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="22" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="21" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="18" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="20" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="19" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="5" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="16" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="17" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="4" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="14" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="17" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="12" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="13" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="14" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="18" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="19" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="16" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="20" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="19" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="12" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="18" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="8" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="4" resource-id="8" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="0" resource-id="9" function="Default:0" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
